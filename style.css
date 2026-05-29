@@ -1,0 +1,48 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.shop-logo {
+    max-width: 150px;
+    height:auto;
+    border-radius: 25%;
+    
+}
+
+.shop-name {
+    font-size: 24px;
+    font-weight: 900px;
+    color: #F9FAF8;
+    margin-left: 10px
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    }
