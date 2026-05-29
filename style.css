@@ -35,12 +35,13 @@ body {
     align-items: center;;
 }
 
-ul {
+ul, .si-text {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
 
     display: flex;
+    text-align: justify;
     justify-content: center;
     align-self: center;
     gap: 15px;
@@ -52,3 +53,41 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     }
+
+.shop-info-1 {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    gap:10px;
+}
+
+.h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.img-h1 {
+    height:auto;
+    width: 400px;
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:25px;
+    gap:10px;
+}
+
+button{
+    background-color:#3882f6;
+    border-radius: 15px;
+    color: #f9faf8;
+    align-self:stretch;
+    font-size:20px;
+    padding:10px;
+    max-width: 400px;
+}
